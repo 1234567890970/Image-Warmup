@@ -12,6 +12,11 @@ html,body{
         width: 100%;
         background-color: rgba(147, 147, 127, 0.623);
 }
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav{
     height: 100px;
     width: 100vw;
@@ -47,7 +52,7 @@ html,body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: red;
+    /* background-color: red; */
     overflow: hidden;
 }
 .imagediv{
@@ -55,7 +60,7 @@ html,body{
     width: 160px;
     position: absolute;
     overflow: hidden;
-    transform: rotate(50%);
+transform: rotate(8deg);
 }
 .imagediv img{
     height: 100%;
